@@ -11,7 +11,7 @@ services:
     volumes:
       - type: bind
         source: .
-        target: /hime_authentication
+        target: /app
     environment:
       DB_HOST: "mysql"
       DB_USER: "root"
